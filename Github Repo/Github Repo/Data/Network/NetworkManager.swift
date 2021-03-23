@@ -53,7 +53,7 @@ final class NetworkManager: Networkable {
 extension NetworkManager {
   private func createMoyaProvider<Target: TargetType>(target: Target) -> MoyaProvider<Target> {
     #if DEBUG
-    return MoyaProvider<Target>(stubClosure: environment.stubClosure)
+    return MoyaProvider<Target>(stubClosure: environment.stubClosure, plugins: plugins)
     #else
     return MoyaProvider<Target>(stubClosure: environment.stubClosure)
     #endif
