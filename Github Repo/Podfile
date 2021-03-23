@@ -1,0 +1,17 @@
+platform :ios, '12.0'
+
+target 'Github Repo' do
+  use_frameworks!
+
+  pod 'SwiftLint'
+
+  target 'Github RepoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Github RepoUITests' do
+    # Pods for testing
+  end
+
+end

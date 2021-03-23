@@ -8,7 +8,7 @@
 import XCTest
 @testable import Github_Repo
 
-class Github_RepoTests: XCTestCase {
+class GithubRepoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

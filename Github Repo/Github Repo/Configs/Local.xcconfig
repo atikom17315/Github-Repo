@@ -1,0 +1,6 @@
+// Application
+GR_APP_VERSION = 1.0.0
+GR_APP_BUNDLE_ID = com.atikom.github-repo.local
+
+// Network
+GR_BASE_URL = https:\/\/api.github.com
