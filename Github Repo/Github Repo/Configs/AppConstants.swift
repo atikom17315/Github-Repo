@@ -1,10 +1,3 @@
-//
-//  AppConstants.swift
-//  Github Repo
-//
-//  Created by Atikom Tancharoen on 20/3/2564 BE.
-//
-
 import Foundation
 
 enum AppConfig: String {
