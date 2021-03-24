@@ -1,7 +1,7 @@
 import Foundation
 import PromiseKit
 
-final class UserDefaultsStore: Storable {
+class UserDefaultsStore: Storable {
   // MARK: - Properties
   private let userDefaults: UserDefaults
   

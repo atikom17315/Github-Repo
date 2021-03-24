@@ -6,5 +6,4 @@ protocol UseCaseProtocol {
   func makeGetListRepositoriesForUserUseCase() -> GetListRepositoriesForUserUseCase
   func makeGetListUsersUseCase() -> GetListUsersUseCase
   func makeSaveFavoriteUserUseCase() -> SaveFavoriteUserUseCase
-  func makeSearchUsersUseCase() -> SearchUsersUseCase
 }

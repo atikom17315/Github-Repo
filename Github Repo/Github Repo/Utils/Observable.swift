@@ -1,6 +1,6 @@
 import Foundation
 
-final class Observable<T> {
+class Observable<T> {
   // MARK: - Typealias or Enum
   typealias Observer = (T) -> Void
   

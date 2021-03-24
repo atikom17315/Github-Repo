@@ -11,7 +11,7 @@ enum SaveFavoriteUserUseCaseResult: Equatable {
   case error
 }
 
-final class SaveFavoriteUserUseCaseImpl: SaveFavoriteUserUseCase {
+class SaveFavoriteUserUseCaseImpl: SaveFavoriteUserUseCase {
   // MARK: - Properties
   private let gitHubRepository: GitHubRepository
   

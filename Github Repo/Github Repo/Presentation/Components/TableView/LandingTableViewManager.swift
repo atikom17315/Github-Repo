@@ -1,6 +1,6 @@
 import UIKit
 
-final class LandingTableViewManager: NSObject, TableViewManageable {
+class LandingTableViewManager: NSObject, TableViewManageable {
   typealias DataType = LandingDataSection
   
   // MARK: - Properties
@@ -40,9 +40,11 @@ extension LandingTableViewManager {
     
     switch element {
     case .loading:
-      return tableView.dequeueReusableCell(withIndexPath: indexPath) as LoadingListCell
+      let cell = tableView.dequeueReusableCell(withIndexPath: indexPath) as LoadingListCell
+      return cell
     case .user(let viewModel):
-      return tableView.dequeueReusableCell(withIndexPath: indexPath) { $0.configure(viewModel) } as UserListCell
+      let cell = tableView.dequeueReusableCell(withIndexPath: indexPath) { $0.configure(viewModel) } as UserListCell
+      return cell
     }
   }
 }

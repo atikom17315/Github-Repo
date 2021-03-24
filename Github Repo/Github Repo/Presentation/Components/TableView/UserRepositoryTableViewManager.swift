@@ -1,6 +1,6 @@
 import UIKit
 
-final class UserRepositoryTableViewManager: NSObject, TableViewManageable {
+class UserRepositoryTableViewManager: NSObject, TableViewManageable {
   typealias DataType = UserRepositoryDataSection
   
   // MARK: - Properties
@@ -43,9 +43,12 @@ extension UserRepositoryTableViewManager: UITableViewDataSource {
     case .loading:
       return tableView.dequeueReusableCell(withIndexPath: indexPath) as LoadingListCell
     case .user(let viewModel):
-      return tableView.dequeueReusableCell(withIndexPath: indexPath) { $0.configure(viewModel) } as UserListCell
+      let cell = tableView.dequeueReusableCell(withIndexPath: indexPath) { $0.configure(viewModel) } as UserListCell
+      cell.selectionStyle = .none
+      return cell
     case .userRepository(let viewModel):
-      return tableView.dequeueReusableCell(withIndexPath: indexPath) { $0.configure(viewModel) } as UserRepositoryListCell
+      let cell = tableView.dequeueReusableCell(withIndexPath: indexPath) { $0.configure(viewModel) } as UserRepositoryListCell
+      return cell
     }
   }
 }

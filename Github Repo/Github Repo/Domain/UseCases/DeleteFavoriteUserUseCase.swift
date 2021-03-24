@@ -11,7 +11,7 @@ enum DeleteFavoriteUserUseCaseResult: Equatable {
   case error
 }
 
-final class DeleteFavoriteUserUseCaseImpl: DeleteFavoriteUserUseCase {
+class DeleteFavoriteUserUseCaseImpl: DeleteFavoriteUserUseCase {
   // MARK: - Properties
   private let gitHubRepository: GitHubRepository
   

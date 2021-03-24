@@ -10,7 +10,7 @@ enum LandingCellType {
 }
 
 // MARK: - DataBuilder
-final class LandingDataBuilder {
+class LandingDataBuilder {
   func buildLoading() -> LandingDataSection {
     let elements = [LandingCellType.loading]
     return LandingDataSection(type: .none, elements: elements)
@@ -23,7 +23,7 @@ final class LandingDataBuilder {
 }
 
 // MARK: - DataSection
-final class LandingDataSection {
+class LandingDataSection {
   let type: LandingSectionType
   var elements: [LandingCellType]
   

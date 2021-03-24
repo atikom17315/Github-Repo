@@ -19,11 +19,11 @@ enum LandingWorkerResult {
   }
 }
 
-final class LandingWorker {
+class LandingWorker {
   // MARK: - Properties
   private let services: UseCaseProtocol
-  private lazy var getFavoriteUsersUseCase = services.makeGetFavoriteUsersUseCase()
-  private lazy var getListUsersUseCase = services.makeGetListUsersUseCase()
+  lazy var getFavoriteUsersUseCase = services.makeGetFavoriteUsersUseCase()
+  lazy var getListUsersUseCase = services.makeGetListUsersUseCase()
   
   // MARK: - Object Life Cycle
   init(services: UseCaseProtocol = UseCaseProvider()) {

@@ -26,7 +26,18 @@
       buildConfiguration = "Development"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4EACA30A26037385008D4773"
+            BuildableName = "Github Repo.app"
+            BlueprintName = "Github Repo"
+            ReferencedContainer = "container:Github Repo.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -35,16 +46,6 @@
                BlueprintIdentifier = "4EACA32026037386008D4773"
                BuildableName = "Github RepoTests.xctest"
                BlueprintName = "Github RepoTests"
-               ReferencedContainer = "container:Github Repo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4EACA32B26037386008D4773"
-               BuildableName = "Github RepoUITests.xctest"
-               BlueprintName = "Github RepoUITests"
                ReferencedContainer = "container:Github Repo.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -1,6 +1,6 @@
 import Foundation
 
-final class UseCaseProvider: UseCaseProtocol {
+class UseCaseProvider: UseCaseProtocol {
   // MARK: - Properties
   private let cache: Cacheable
   private let network: Networkable
@@ -40,9 +40,5 @@ final class UseCaseProvider: UseCaseProtocol {
   
   func makeSaveFavoriteUserUseCase() -> SaveFavoriteUserUseCase {
     return SaveFavoriteUserUseCaseImpl(gitHubRepository: gitHubRepository)
-  }
-  
-  func makeSearchUsersUseCase() -> SearchUsersUseCase {
-    return SearchUsersUseCaseImpl(gitHubRepository: gitHubRepository)
   }
 }

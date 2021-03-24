@@ -11,7 +11,7 @@ enum GetListUsersUseCaseResult: Equatable {
   case error
 }
 
-final class GetListUsersUseCaseImpl: GetListUsersUseCase {
+class GetListUsersUseCaseImpl: GetListUsersUseCase {
   // MARK: - Properties
   private let gitHubRepository: GitHubRepository
   

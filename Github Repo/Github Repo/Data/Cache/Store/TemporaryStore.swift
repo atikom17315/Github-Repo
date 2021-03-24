@@ -1,7 +1,7 @@
 import Foundation
 import PromiseKit
 
-final class TemporaryStore: Storable {
+class TemporaryStore: Storable {
   // MARK: - Properties
   private lazy var store: [String: Any] = [:]
   

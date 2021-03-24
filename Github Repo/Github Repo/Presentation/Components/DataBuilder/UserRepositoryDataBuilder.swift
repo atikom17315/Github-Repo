@@ -11,7 +11,7 @@ enum UserRepositoryCellType {
 }
 
 // MARK: - DataBuilder
-final class UserRepositoryDataBuilder {
+class UserRepositoryDataBuilder {
   func buildLoading() -> [UserRepositoryDataSection] {
     let elements = [UserRepositoryCellType.loading]
     return [UserRepositoryDataSection(type: .none, elements: elements)]
@@ -29,7 +29,7 @@ final class UserRepositoryDataBuilder {
 }
 
 // MARK: - DataSection
-final class UserRepositoryDataSection {
+class UserRepositoryDataSection {
   let type: UserRepositorySectionType
   var elements: [UserRepositoryCellType]
   

@@ -12,7 +12,9 @@ $ pod install
 $ open "Github Repo.xcworkspace"`
 $ Run the project
 ```
-3) After you launch app, you will see the list of user and you can tap the list for opening the user's repositories.
+3) Build & Run
+
+4) After you launch app, you will see the list of user and you can tap the list for opening the user's repositories.
 
 ## 4 Features for Github Mobile Apps
 Github User List

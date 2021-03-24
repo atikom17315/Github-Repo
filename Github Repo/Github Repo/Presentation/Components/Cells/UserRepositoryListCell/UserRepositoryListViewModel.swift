@@ -15,7 +15,7 @@ protocol UserRepositoryListInteractorOutput: class {
   var openURL: Observable<String> { get }
 }
 
-final class UserRepositoryListViewModel: UserRepositoryListInteractorIO, UserRepositoryListInteractorInput, UserRepositoryListInteractorOutput {
+class UserRepositoryListViewModel: UserRepositoryListInteractorIO, UserRepositoryListInteractorInput, UserRepositoryListInteractorOutput {
   // MARK: - Properties
   private var repository: Repository
   

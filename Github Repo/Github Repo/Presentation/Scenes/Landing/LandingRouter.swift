@@ -8,7 +8,7 @@ protocol LandingDataPassing {
   var dataStore: LandingDataStore? { get }
 }
 
-final class LandingRouter: NSObject, LandingRoutingLogic, LandingDataPassing {
+class LandingRouter: NSObject, LandingRoutingLogic, LandingDataPassing {
   weak var viewController: LandingViewController?
   var dataStore: LandingDataStore?
   

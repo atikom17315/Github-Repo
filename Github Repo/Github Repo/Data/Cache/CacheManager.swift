@@ -2,7 +2,7 @@ import AwaitKit
 import Foundation
 import PromiseKit
 
-final class CacheManager: Cacheable {
+class CacheManager: Cacheable {
   // MARK: - Properties
   private let userDefaults: Storable
   private var temporary: Storable

@@ -11,7 +11,7 @@ class UserRepositoryViewController: UIViewController, Storyboarded {
   var router: (NSObjectProtocol & UserRepositoryRoutingLogic & UserRepositoryDataPassing)?
   
   // MARK: - Properties
-  private var tableViewManager: UserRepositoryTableViewManager!
+  var tableViewManager: UserRepositoryTableViewManager!
 
   // MARK: - IBOutlet
   @IBOutlet private var tableView: UITableView!

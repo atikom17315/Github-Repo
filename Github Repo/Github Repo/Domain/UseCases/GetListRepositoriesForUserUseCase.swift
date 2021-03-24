@@ -11,7 +11,7 @@ enum GetListRepositoriesForUserUseCaseResult: Equatable {
   case repos([Repository])
 }
 
-final class GetListRepositoriesForUserUseCaseImpl: GetListRepositoriesForUserUseCase {
+class GetListRepositoriesForUserUseCaseImpl: GetListRepositoriesForUserUseCase {
   // MARK: - Properties
   private let gitHubRepository: GitHubRepository
   

@@ -6,7 +6,7 @@ protocol UserRepositoryPresentationLogic {
   func presentLoading(response: UserRepository.Loading.Response)
 }
 
-final class UserRepositoryPresenter {
+class UserRepositoryPresenter {
   weak var viewController: UserRepositoryDisplayLogic?
 }
 

@@ -12,7 +12,7 @@ protocol GitHubRepository {
   func searchUsers(query: String) throws -> Promise<[User]>
 }
 
-final class GitHubRepositoryImpl: GitHubRepository {
+class GitHubRepositoryImpl: GitHubRepository {
   // MARK: - Properties
   let cache: Cacheable
   let network: Networkable

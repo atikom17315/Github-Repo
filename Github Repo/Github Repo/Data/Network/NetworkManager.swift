@@ -3,7 +3,7 @@ import Foundation
 import Moya
 import PromiseKit
 
-final class NetworkManager: Networkable {
+class NetworkManager: Networkable {
   // MARK: - Typealias or Enum
   enum Environment {
     case local

@@ -12,7 +12,7 @@ protocol LandingDataStore {
   var userSelected: User? { get set }
 }
 
-final class LandingInteractor: LandingDataStore {
+class LandingInteractor: LandingDataStore {
   var presenter: LandingPresentationLogic?
   var worker: LandingWorker?
   

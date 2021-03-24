@@ -7,10 +7,10 @@ enum UserRepositoryWorkerResult {
   }
 }
 
-final class UserRepositoryWorker {
+class UserRepositoryWorker {
   // MARK: - Properties
   private let services: UseCaseProtocol
-  private lazy var getListRepositoriesForUserUseCase = services.makeGetListRepositoriesForUserUseCase()
+  lazy var getListRepositoriesForUserUseCase = services.makeGetListRepositoriesForUserUseCase()
   
   // MARK: - Object Life Cycle
   init(services: UseCaseProtocol = UseCaseProvider()) {

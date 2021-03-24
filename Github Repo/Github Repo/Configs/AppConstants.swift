@@ -8,6 +8,7 @@
 import Foundation
 
 enum AppConfig: String {
+  case appBundleIdentifier = "AppBundleIdentifier"
   case baseUrl = "BaseUrl"
 }
 

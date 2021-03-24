@@ -10,8 +10,4 @@ target 'Github Repo' do
     # Pods for testing
   end
 
-  target 'Github RepoUITests' do
-    # Pods for testing
-  end
-
 end

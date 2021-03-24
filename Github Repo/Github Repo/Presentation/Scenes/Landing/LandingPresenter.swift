@@ -7,7 +7,7 @@ protocol LandingPresentationLogic {
   func presentLoading(response: Landing.Loading.Response)
 }
 
-final class LandingPresenter {
+class LandingPresenter {
   weak var viewController: LandingDisplayLogic?
 }
 

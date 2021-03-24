@@ -17,9 +17,10 @@ class LandingViewController: UIViewController, Storyboarded {
   var router: (NSObjectProtocol & LandingRoutingLogic & LandingDataPassing)?
     
   // MARK: - Properties
-  private var tableViewManager: LandingTableViewManager!
   private var contentType: ContentType!
   private var searchTask: DispatchWorkItem?
+  
+  var tableViewManager: LandingTableViewManager!
   
   // MARK: - IBOutlet
   @IBOutlet private var favoriteButton: UIButton!

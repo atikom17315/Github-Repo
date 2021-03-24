@@ -20,7 +20,7 @@ protocol UserListInteractorOutput: class {
   var showUserRepository: ((_ user: User) -> Void)? { get set }
 }
 
-final class UserListViewModel: UserListInteractorIO, UserListInteractorInput, UserListInteractorOutput {
+class UserListViewModel: UserListInteractorIO, UserListInteractorInput, UserListInteractorOutput {
   // MARK: - Properties
   private var user: User
   
