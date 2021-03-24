@@ -1,4 +1,4 @@
-# Mobile Application Test - Github Repo (Clean Swift + MVVM)
+# Mobile Application Test - Github Repo (Clean Swift)
 Github Repo app was developed in Swift 5 for testing.
 
 ## How to build and test
