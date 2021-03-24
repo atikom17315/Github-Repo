@@ -10,13 +10,12 @@ $ pod install
 2) Open the workspace in Xcode
 ```bash
 $ open "Github Repo.xcworkspace"`
-$ Run the project
 ```
 3) Build & Run
 
 4) After you launch app, you will see the list of user and you can tap the list for opening the user's repositories.
 
-## 4 Features for Github Mobile Apps
+## What features are there?
 Github User List
 - Show the list of Github users
 - In the list, it will show image, nam and GitHub URL of the User
@@ -33,6 +32,6 @@ Search and filter for the users
 - Support the filter only favorite users
 
 ## Requirements
-* Xcode 9.4
-* iOS 10+
-* Swift 4.1
+* Xcode 12.2
+* iOS 12+
+* Swift 5.3
