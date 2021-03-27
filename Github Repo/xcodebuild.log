@@ -1,0 +1,121 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace "Github Repo.xcworkspace" -scheme "Github Repo-Dev"
+
+Resolve Package Graph
+
+Fetching https://github.com/onevcat/Kingfisher.git
+
+Fetching https://github.com/yannickl/AwaitKit.git
+
+Fetching https://github.com/Moya/Moya.git
+
+Fetching https://github.com/mxcl/PromiseKit.git
+
+Fetching https://github.com/shibapm/Rocket
+
+Fetching https://github.com/AliSoftware/OHHTTPStubs.git
+
+Fetching https://github.com/Quick/Nimble.git
+
+Fetching https://github.com/Quick/Quick.git
+
+Fetching https://github.com/ReactiveX/RxSwift.git
+
+Fetching https://github.com/Moya/ReactiveSwift.git
+
+Fetching https://github.com/Alamofire/Alamofire.git
+
+Fetching https://github.com/shibapm/PackageConfig.git
+
+Fetching https://github.com/kareman/SwiftShell
+
+Fetching https://github.com/shibapm/Logger
+
+Fetching https://github.com/jpsim/Yams
+
+Cloning https://github.com/Alamofire/Alamofire.git
+
+Checking out https://github.com/Alamofire/Alamofire.git at 5.4.1
+
+Cloning https://github.com/onevcat/Kingfisher.git
+
+Checking out https://github.com/onevcat/Kingfisher.git at 6.2.1
+
+Cloning https://github.com/ReactiveX/RxSwift.git
+
+Checking out https://github.com/ReactiveX/RxSwift.git at 5.1.2
+
+Cloning https://github.com/jpsim/Yams
+
+Checking out https://github.com/jpsim/Yams at 2.0.0
+
+Cloning https://github.com/shibapm/PackageConfig.git
+
+Checking out https://github.com/shibapm/PackageConfig.git at 0.13.0
+
+Cloning https://github.com/Moya/ReactiveSwift.git
+
+Checking out https://github.com/Moya/ReactiveSwift.git at 6.1.0
+
+Cloning https://github.com/yannickl/AwaitKit.git
+
+Checking out https://github.com/yannickl/AwaitKit.git at 5.2.0
+
+Cloning https://github.com/mxcl/PromiseKit.git
+
+Checking out https://github.com/mxcl/PromiseKit.git at 6.13.3
+
+Cloning https://github.com/AliSoftware/OHHTTPStubs.git
+
+Checking out https://github.com/AliSoftware/OHHTTPStubs.git at 9.1.0
+
+Cloning https://github.com/Moya/Moya.git
+
+Checking out https://github.com/Moya/Moya.git at 14.0.1
+
+Cloning https://github.com/Quick/Quick.git
+
+Checking out https://github.com/Quick/Quick.git at 2.2.1
+
+Cloning https://github.com/Quick/Nimble.git
+
+Checking out https://github.com/Quick/Nimble.git at 8.1.2
+
+Cloning https://github.com/kareman/SwiftShell
+
+Checking out https://github.com/kareman/SwiftShell at 5.1.0-beta.1
+
+Cloning https://github.com/shibapm/Logger
+
+Checking out https://github.com/shibapm/Logger at 0.2.3
+
+Cloning https://github.com/shibapm/Rocket
+
+Checking out https://github.com/shibapm/Rocket at 1.1.0
+
+
+Resolved source packages:
+  Nimble: https://github.com/Quick/Nimble.git @ 8.1.2
+  PackageConfig: https://github.com/shibapm/PackageConfig.git @ 0.13.0
+  Alamofire: https://github.com/Alamofire/Alamofire.git @ 5.4.1
+  Rocket: https://github.com/shibapm/Rocket @ 1.1.0
+  Moya: https://github.com/Moya/Moya.git @ 14.0.1
+  OHHTTPStubs: https://github.com/AliSoftware/OHHTTPStubs.git @ 9.1.0
+  Yams: https://github.com/jpsim/Yams @ 2.0.0
+  PromiseKit: https://github.com/mxcl/PromiseKit.git @ 6.13.3
+  ReactiveSwift: https://github.com/Moya/ReactiveSwift.git @ 6.1.0
+  Kingfisher: https://github.com/onevcat/Kingfisher.git @ 6.2.1
+  SwiftShell: https://github.com/kareman/SwiftShell @ 5.1.0-beta.1
+  RxSwift: https://github.com/ReactiveX/RxSwift.git @ 5.1.2
+  Logger: https://github.com/shibapm/Logger @ 0.2.3
+  AwaitKit: https://github.com/yannickl/AwaitKit.git @ 5.2.0
+  Quick: https://github.com/Quick/Quick.git @ 2.2.1
+
+note: Using new build system
+note: Building targets in parallel
+note: Planning build
+note: Constructing build description
+warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 9.0 to 14.4.99. (in target 'PromiseKit' from project 'PromiseKit')
+warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 9.0 to 14.4.99. (in target 'PromiseKit' from project 'PromiseKit')
+error: No profiles for 'com.atikom.github-repo.dev' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'com.atikom.github-repo.dev'. Automatic signing is disabled and unable to generate a profile. To enable automatic signing, pass -allowProvisioningUpdates to xcodebuild. (in target 'Github Repo' from project 'Github Repo')
+

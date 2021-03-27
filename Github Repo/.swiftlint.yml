@@ -4,7 +4,10 @@ disabled_rules:
 
 excluded:
 - Carthage
+- DerivedData
+- fastlane
 - Pods
+- Submodules
 
 type_name:
   max_length: 
