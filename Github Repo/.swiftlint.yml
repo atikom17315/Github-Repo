@@ -2,6 +2,10 @@ disabled_rules:
 - trailing_whitespace
 - vertical_parameter_alignment
 
+excluded:
+- Carthage
+- Pods
+
 type_name:
   max_length: 
     warning: 60
